@@ -33,13 +33,13 @@ dependencies = [
     "matplotlib>=3.4.0",
     "seaborn>=0.11.0",
     "pyyaml>=5.4.0",
+    "statsmodels>=0.13.0",
     "autotrend>=0.2.4",
 ]
 
 [project.optional-dependencies]
 experiments = [
-    "statsmodels>=0.13.0",
-    "stldecompose>=0.0.5",
+    "torch>=2.0.0",
     "jupyter>=1.0.0",
     "ipykernel>=6.0.0",
     "notebook",

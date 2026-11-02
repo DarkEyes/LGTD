@@ -1,0 +1,21 @@
+{
+  "title": "LGTD: Local-Global Trend Decomposition for Season-Length-Free Time Series Analysis (code and data)",
+  "upload_type": "software",
+  "description": "<p>Source code, synthetic and real-world datasets, baseline wrappers, and experiment scripts for <em>LGTD: Local-Global Trend Decomposition for Season-Length-Free Time Series Analysis</em>. LGTD decomposes a time series into a smooth global trend, piecewise-linear local trends whose recurrence acts as emergent seasonality, and a residual, without a season-length parameter. The archive reproduces every table and figure in the paper: decomposition accuracy on nine synthetic benchmarks, Ljung-Box residual diagnostics on ETTh1, ETTh2, and the SILSO sunspot series, and the runtime and memory scaling study. Install with <code>pip install -e .</code> for the method alone, or <code>pip install -e \".[experiments]\"</code> for the full benchmark. OneShotSTL additionally requires a Java runtime.</p>",
+  "creators": [
+    {"name": "Sophaken, Chotanansub", "affiliation": "King Mongkut's University of Technology Thonburi, Thailand", "orcid": "0009-0004-5165-006X"},
+    {"name": "Rattanakornphan, Thanadej", "affiliation": "Kasetsart University, Bangkok, Thailand"},
+    {"name": "Charoenpoonpanich, Piyanon", "affiliation": "Independent Researcher, Bangkok, Thailand"},
+    {"name": "Phungtua-eng, Thanapol", "affiliation": "Rajamangala University of Technology Tawan-ok, Thailand"},
+    {"name": "Amornbunchornvej, Chainarong", "affiliation": "National Electronics and Computer Technology Center, Pathumthani, Thailand", "orcid": "0000-0003-3131-0370"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": ["time series", "time series decomposition", "seasonal-trend decomposition", "local trend", "season length", "data mining"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/chotanansub/LGTD", "relation": "isSupplementTo", "scheme": "url", "resource_type": "software"},
+    {"identifier": "arXiv:2601.04820", "relation": "isSupplementTo", "scheme": "arxiv", "resource_type": "publication-preprint"}
+  ]
+}

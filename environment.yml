@@ -31,5 +31,5 @@ dependencies:
   # Pip dependencies (packages not available in conda)
   - pip
   - pip:
-    - stldecompose>=0.0.5
+    - torch>=2.0.0
     - autotrend>=0.2.4
